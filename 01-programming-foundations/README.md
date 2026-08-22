@@ -103,22 +103,22 @@ During independent challenges and assessments, assistance may be restricted.
 
 ## Topics
 
-- [ ] Variables
-- [ ] Assignment
-- [ ] Basic data types
-- [ ] Expressions
-- [ ] Updating values
-- [ ] Program state
-- [ ] Reading variable changes through execution
+- [x] Variables
+- [x] Assignment
+- [x] Basic data types
+- [x] Expressions
+- [x] Updating values
+- [x] Program state
+- [x] Reading variable changes through execution
 
 ## Validation
 
-- [ ] Trace variable values correctly
-- [ ] Explain assignment
-- [ ] Predict simple outputs
-- [ ] Write basic examples independently
-- [ ] Pass module assessment
-- [ ] Competency validated
+- [x] Trace variable values correctly
+- [x] Explain assignment
+- [x] Predict simple outputs
+- [x] Write basic examples independently
+- [x] Pass module assessment
+- [x] Competency validated
 
 ---
 

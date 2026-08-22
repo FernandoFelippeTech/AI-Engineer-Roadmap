@@ -19,7 +19,7 @@ The roadmap is competency-based: completing study material does not automaticall
 # Phase 01 — Programming Foundations
 
 ## Programming Logic
-- [ ] Variables and data types
+- [x] Variables and data types
 - [ ] Operators and expressions
 - [ ] Conditional statements
 - [ ] Loops and iteration
@@ -31,7 +31,7 @@ The roadmap is competency-based: completing study material does not automaticall
 
 ## Python Foundations
 - [ ] Python syntax
-- [ ] Variables and types
+- [x] Variables and types
 - [ ] Conditionals
 - [ ] `for` loops
 - [ ] `while` loops

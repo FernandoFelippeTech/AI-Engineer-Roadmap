@@ -12,11 +12,11 @@ Last updated: Initial assessment
 |---|---|
 | Current Phase | Phase 01 — Programming Foundations |
 | Current Focus | Programming Logic |
-| Current Module | Loops and Iteration |
+| Current Module | Operators & Expressions |
 | Roadmap Status | In Progress |
 | Study Schedule | 1 hour/day |
 | Target Timeline | 9–12 months |
-| Current Assessment | Initial Diagnostic |
+| Current Assessment | Module 02 — Operators & Expressions |
 | Next Milestone | Validate Programming Foundations |
 
 ---
@@ -169,6 +169,7 @@ Future assessments will be recorded here without exposing answer keys.
 | Assessment | Result | Score | Decision |
 |---|---|---:|---|
 | Initial Diagnostic | In Progress | — | Continue diagnosis |
+| Module 01 — Variables, Types & State | Passed | 100% | Competency validated |
 
 ---
 
@@ -192,11 +193,11 @@ Detailed learning records will be maintained separately as the roadmap progresse
 
 **Phase:** 01  
 **Focus:** Programming Logic  
-**Module:** Loops and Iteration  
-**Status:** Learning / Diagnostic
+**Module:** Operators & Expressions  
+**Status:** Validation
 
 ---
 
 ## Next Action
 
-Complete the initial Programming Foundations diagnostic and determine the exact starting point for Phase 01.
+Complete Module 02 — Operators & Expressions validation.
