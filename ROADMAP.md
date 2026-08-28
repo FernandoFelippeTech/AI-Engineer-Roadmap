@@ -1,430 +1,441 @@
 # AI Engineer Roadmap
 
-> A structured, practical and evolving roadmap toward AI Engineering.
+## Objetivo
 
-This roadmap tracks the development of the core competencies required to design, build, integrate and deploy AI-powered systems.
+Este roadmap define uma trilha prática e progressiva de preparação para uma primeira oportunidade profissional como **AI Engineer Junior**.
 
-The roadmap is competency-based: completing study material does not automatically mean a skill has been validated.
+A estrutura foi organizada a partir das competências observadas em vagas de entrada da área e das dependências técnicas necessárias para desenvolvê-las de forma consistente.
 
-## Progress Legend
+O objetivo não é estudar toda a área de Inteligência Artificial.
 
-- [ ] Not started
-- [x] Completed
-- 🧪 Assessment required
-- 🔁 Review required
-- ✅ Competency validated
+O objetivo é atingir um nível em que eu consiga:
 
----
-
-# Phase 01 — Programming Foundations
-
-## Programming Logic
-- [x] Variables and data types
-- [ ] Operators and expressions
-- [ ] Conditional statements
-- [ ] Loops and iteration
-- [ ] Functions
-- [ ] Collections
-- [ ] Basic problem solving
-- [ ] Reading and tracing code
-- [ ] Debugging fundamentals
-
-## Python Foundations
-- [ ] Python syntax
-- [x] Variables and types
-- [ ] Conditionals
-- [ ] `for` loops
-- [ ] `while` loops
-- [ ] Functions
-- [ ] Lists
-- [ ] Tuples
-- [ ] Dictionaries
-- [ ] Sets
-- [ ] Modules and imports
-- [ ] Exceptions
-- [ ] File handling
-- [ ] Virtual environments
-
-## Phase Validation
-- [ ] Complete practical exercises
-- [ ] Complete programming challenges
-- [ ] Explain core concepts without assistance
-- [ ] Complete assessment
-- [ ] Complete practical checkpoint
-- [ ] Phase 01 competency validated
+- desenvolver aplicações de IA;
+- integrar LLMs a sistemas reais;
+- construir APIs e trabalhar com dados;
+- implementar busca semântica e RAG;
+- utilizar ferramentas e workflows com LLMs;
+- aplicar práticas básicas de engenharia e produção;
+- demonstrar essas competências por meio de projetos;
+- explicar e defender decisões técnicas em entrevistas.
 
 ---
 
-# Phase 02 — Software Engineering Foundations
+# Princípio do roadmap
 
-## Development Environment
-- [ ] Terminal fundamentals
-- [ ] File system navigation
-- [ ] VS Code workflow
-- [ ] Environment variables
+A progressão segue três movimentos:
 
-## Git & GitHub
-- [ ] Git fundamentals
-- [ ] Repository workflow
-- [ ] Staging and commits
-- [ ] Branches
-- [ ] Merge fundamentals
-- [ ] Pull requests
-- [ ] `.gitignore`
-- [ ] Professional commit practices
+```text
+Fundamentos
+    ↓
+Construção de sistemas
+    ↓
+Integração com IA
+    ↓
+Entrega e demonstração profissional
+```
 
-## Code Quality
-- [ ] Clean code fundamentals
-- [ ] Naming and readability
-- [ ] Code organization
-- [ ] Refactoring fundamentals
-- [ ] Testing fundamentals
-- [ ] Logging fundamentals
+Cada fase possui competências verificáveis.
 
-## Phase Validation
-- [ ] Complete Git challenge
-- [ ] Complete code organization challenge
-- [ ] Complete assessment
-- [ ] Complete practical checkpoint
-- [ ] Phase 02 competency validated
+Estudar um conteúdo não significa automaticamente dominá-lo.
+
+Uma competência somente deverá ser considerada validada quando puder ser demonstrada por exercícios, debugging, projetos, explicação técnica ou avaliação.
 
 ---
 
-# Phase 03 — APIs & Backend Foundations
+# Trilha
 
-## Web Fundamentals
-- [ ] HTTP fundamentals
-- [ ] Request and response lifecycle
-- [ ] HTTP methods
-- [ ] Status codes
-- [ ] Headers
-- [ ] JSON
+## 00 — Diagnóstico
 
-## REST APIs
-- [ ] REST fundamentals
-- [ ] API endpoints
-- [ ] Parameters
-- [ ] Authentication concepts
-- [ ] API consumption with Python
-- [ ] Error handling
-- [ ] Build a basic API
+Identificação do nível inicial, conhecimentos existentes e lacunas técnicas.
 
-## Backend
-- [ ] FastAPI fundamentals
-- [ ] Routes
-- [ ] Request validation
-- [ ] Response models
-- [ ] Basic authentication
-- [ ] API documentation
-
-## Phase Validation
-- [ ] Consume an external API
-- [ ] Build a REST API
-- [ ] Complete assessment
-- [ ] Complete practical checkpoint
-- [ ] Phase 03 competency validated
+O diagnóstico serve como referência para adaptar os estudos e comparar evolução posteriormente.
 
 ---
 
-# Phase 04 — Data & SQL
+## 01 — Fundamentos de Programação
 
-## Data Fundamentals
-- [ ] Structured vs unstructured data
-- [ ] CSV and JSON
-- [ ] Data manipulation with Python
-- [ ] NumPy fundamentals
-- [ ] Pandas fundamentals
+Base de lógica necessária para todo o restante da trilha.
 
-## SQL
-- [ ] Relational database concepts
-- [ ] Tables and schemas
-- [ ] SELECT
-- [ ] WHERE
-- [ ] ORDER BY
-- [ ] GROUP BY
-- [ ] JOIN
-- [ ] INSERT
-- [ ] UPDATE
-- [ ] DELETE
-- [ ] Database design fundamentals
+Principais temas:
 
-## Phase Validation
-- [ ] Complete SQL challenges
-- [ ] Analyze a dataset
-- [ ] Complete assessment
-- [ ] Complete practical checkpoint
-- [ ] Phase 04 competency validated
+- variáveis e tipos;
+- operadores;
+- condicionais;
+- loops;
+- funções;
+- estruturas de dados;
+- erros;
+- resolução de problemas;
+- debugging.
+
+### Entrega
+
+**Projeto 01 — Python e Lógica**
 
 ---
 
-# Phase 05 — Mathematics for AI
+## 02 — Python Aplicado
 
-## Core Mathematics
-- [ ] Algebra review
-- [ ] Functions
-- [ ] Vectors
-- [ ] Matrices
-- [ ] Linear algebra fundamentals
-- [ ] Probability fundamentals
-- [ ] Statistics fundamentals
-- [ ] Derivatives intuition
-- [ ] Gradient intuition
+Transformação da lógica de programação em código Python organizado e reutilizável.
 
-## Applied Understanding
-- [ ] Connect vectors to embeddings
-- [ ] Connect probability to ML predictions
-- [ ] Understand optimization intuition
+Principais temas:
 
-## Phase Validation
-- [ ] Complete applied math exercises
-- [ ] Explain key concepts conceptually
-- [ ] Complete assessment
-- [ ] Phase 05 competency validated
+- Python aplicado;
+- módulos;
+- arquivos;
+- JSON;
+- exceptions;
+- ambientes virtuais;
+- dependências;
+- OOP essencial;
+- debugging;
+- refatoração.
+
+### Entrega
+
+**Projeto 02 — Aplicação Python Estruturada**
 
 ---
 
-# Phase 06 — Machine Learning
+## 03 — Ferramentas de Engenharia
 
-## Foundations
-- [ ] What machine learning is
-- [ ] Supervised learning
-- [ ] Unsupervised learning
-- [ ] Features and labels
-- [ ] Training and inference
-- [ ] Train/validation/test split
-- [ ] Overfitting and underfitting
+Introdução ao fluxo profissional de desenvolvimento de software.
 
-## Models
-- [ ] Linear regression
-- [ ] Logistic regression
-- [ ] Decision trees
-- [ ] Random forests
-- [ ] Clustering fundamentals
+Principais temas:
 
-## Evaluation
-- [ ] Accuracy
-- [ ] Precision
-- [ ] Recall
-- [ ] F1 score
-- [ ] Confusion matrix
-
-## Tools
-- [ ] Scikit-learn
-- [ ] Data preprocessing
-- [ ] Model training
-- [ ] Model evaluation
-- [ ] Model persistence
-
-## Phase Validation
-- [ ] Train a model
-- [ ] Evaluate a model
-- [ ] Complete ML project
-- [ ] Complete assessment
-- [ ] Phase 06 competency validated
+- terminal;
+- Git;
+- GitHub;
+- branches;
+- merge;
+- conflitos;
+- documentação;
+- testes;
+- fluxo de desenvolvimento.
 
 ---
 
-# Phase 07 — Deep Learning
+## 04 — APIs e Backend
 
-## Neural Networks
-- [ ] Neural network intuition
-- [ ] Neurons and layers
-- [ ] Activation functions
-- [ ] Loss functions
-- [ ] Gradient descent
-- [ ] Backpropagation intuition
+Construção da base necessária para integrar aplicações, modelos e serviços.
 
-## Framework
-- [ ] PyTorch fundamentals
-- [ ] Tensors
-- [ ] Datasets and DataLoaders
-- [ ] Build a neural network
-- [ ] Training loop
-- [ ] Model evaluation
+Principais temas:
 
-## Phase Validation
-- [ ] Build and train a neural network
-- [ ] Explain the training process
-- [ ] Complete assessment
-- [ ] Phase 07 competency validated
+- cliente e servidor;
+- HTTP;
+- JSON;
+- REST;
+- consumo de APIs;
+- autenticação;
+- FastAPI;
+- Pydantic;
+- tratamento de erros;
+- testes de API.
 
 ---
 
-# Phase 08 — Generative AI & LLM Foundations
+## 05 — Dados e SQL
 
-## LLM Fundamentals
-- [ ] Language model fundamentals
-- [ ] Tokens
-- [ ] Context windows
-- [ ] Transformers intuition
-- [ ] Embeddings
-- [ ] Inference
-- [ ] Temperature and sampling
-- [ ] Model limitations
+Persistência e manipulação dos dados utilizados pelas aplicações.
 
-## Prompt Engineering
-- [ ] Instruction design
-- [ ] Context design
-- [ ] Structured outputs
-- [ ] Few-shot prompting
-- [ ] Prompt evaluation
+Principais temas:
 
-## AI APIs
-- [ ] OpenAI API
-- [ ] Gemini API
-- [ ] Model selection
-- [ ] Token usage
-- [ ] Cost awareness
-- [ ] Error handling
-- [ ] Structured responses
+- bancos relacionais;
+- SQL;
+- CRUD;
+- modelagem;
+- JOINs;
+- agregações;
+- PostgreSQL;
+- integração Python + banco;
+- persistência com FastAPI;
+- segurança básica;
+- Pandas essencial.
 
-## Phase Validation
-- [ ] Build an LLM-powered application
-- [ ] Compare model behavior
-- [ ] Complete assessment
-- [ ] Phase 08 competency validated
+### Entrega
+
+**Projeto 03 — API + FastAPI + PostgreSQL**
 
 ---
 
-# Phase 09 — LLM Engineering
+## 06 — Fundamentos de IA e LLMs
 
-## Embeddings & Retrieval
-- [ ] Embedding models
-- [ ] Similarity
-- [ ] Vector search
-- [ ] Vector databases
+Entrada nos fundamentos específicos de AI Engineering.
 
-## RAG
-- [ ] RAG architecture
-- [ ] Document ingestion
-- [ ] Chunking
-- [ ] Embedding pipeline
-- [ ] Retrieval
-- [ ] Context construction
-- [ ] Generation
-- [ ] RAG evaluation
+Principais temas:
 
-## Phase Validation
-- [ ] Build a RAG system
-- [ ] Evaluate retrieval quality
-- [ ] Complete assessment
-- [ ] Phase 09 competency validated
+- AI, Machine Learning e Deep Learning;
+- Transformers;
+- Large Language Models;
+- tokens;
+- context window;
+- inferência;
+- limitações de LLMs;
+- APIs de modelos;
+- Prompt Engineering;
+- Context Engineering;
+- Structured Outputs;
+- avaliação básica.
 
----
+### Entrega
 
-# Phase 10 — AI Agents
-
-## Agent Fundamentals
-- [ ] Agent architecture
-- [ ] Tool calling
-- [ ] Function calling
-- [ ] State and memory concepts
-- [ ] Planning concepts
-- [ ] Multi-step workflows
-
-## Reliability
-- [ ] Structured outputs
-- [ ] Validation
-- [ ] Error recovery
-- [ ] Guardrails
-- [ ] Observability
-
-## Phase Validation
-- [ ] Build a tool-using agent
-- [ ] Build a multi-step AI workflow
-- [ ] Complete assessment
-- [ ] Phase 10 competency validated
+**Projeto 04 — Aplicação com LLM**
 
 ---
 
-# Phase 11 — Docker, Cloud & MLOps
+## 07 — Embeddings e Busca Semântica
 
-## Docker
-- [ ] Containers
-- [ ] Images
-- [ ] Dockerfile
-- [ ] Docker Compose
-- [ ] Containerize an AI application
+Fundamentos necessários para sistemas que recuperam informação por significado.
 
-## Cloud
-- [ ] Cloud fundamentals
-- [ ] Compute
-- [ ] Storage
-- [ ] Networking fundamentals
-- [ ] Secrets management
-- [ ] Deploy an application
+Principais temas:
 
-## MLOps / LLMOps
-- [ ] CI/CD fundamentals
-- [ ] Model/application versioning
-- [ ] Monitoring
-- [ ] Logging
-- [ ] Evaluation pipelines
-- [ ] Cost monitoring
-
-## Phase Validation
-- [ ] Containerize a project
-- [ ] Deploy a project
-- [ ] Configure basic monitoring
-- [ ] Complete assessment
-- [ ] Phase 11 competency validated
+- vetores;
+- embeddings;
+- similaridade;
+- busca lexical e semântica;
+- chunking;
+- metadata;
+- vector databases;
+- indexação;
+- retrieval;
+- avaliação de recuperação.
 
 ---
 
-# Phase 12 — Production AI Systems
+## 08 — RAG
 
-## AI System Design
-- [ ] AI application architecture
-- [ ] Scalability fundamentals
-- [ ] Reliability
-- [ ] Latency
-- [ ] Cost optimization
-- [ ] Security fundamentals
-- [ ] Observability
-- [ ] Evaluation strategy
+Construção de sistemas de Retrieval-Augmented Generation.
 
-## Production Readiness
-- [ ] API architecture
-- [ ] Database integration
-- [ ] AI provider integration
-- [ ] Caching concepts
-- [ ] Failure handling
-- [ ] Deployment strategy
+Principais temas:
 
-## Phase Validation
-- [ ] Design a production AI architecture
-- [ ] Build an end-to-end AI system
-- [ ] Deploy the system
-- [ ] Document architecture and decisions
-- [ ] Complete final technical assessment
-- [ ] Phase 12 competency validated
+- arquitetura RAG;
+- ingestão;
+- indexação;
+- retrieval;
+- construção de contexto;
+- geração fundamentada;
+- fontes;
+- avaliação;
+- diagnóstico de falhas;
+- melhorias de retrieval.
+
+### Entrega
+
+**Projeto 05 — Sistema RAG**
 
 ---
 
-# Portfolio & Career Readiness
+## 09 — Agentes e Orquestração
 
-## Portfolio
-- [ ] Maintain professional GitHub repositories
-- [ ] Write strong project READMEs
-- [ ] Document architecture decisions
-- [ ] Demonstrate testing and validation
-- [ ] Demonstrate deployment
-- [ ] Build AI Engineering portfolio projects
+Construção de aplicações capazes de utilizar ferramentas e coordenar múltiplas etapas.
 
-## Interview Preparation
-- [ ] Python interview exercises
-- [ ] SQL interview exercises
-- [ ] API/backend questions
-- [ ] Machine Learning fundamentals
-- [ ] LLM and RAG questions
-- [ ] AI system design
-- [ ] Explain portfolio projects clearly
-- [ ] Complete mock technical interviews
+Principais temas:
 
-## Career Validation
-- [ ] CV aligned with AI Engineering roles
-- [ ] GitHub ready for technical review
-- [ ] LinkedIn aligned with target roles
-- [ ] Portfolio projects validated
-- [ ] Technical interview simulation completed
-- [ ] Ready to apply consistently
+- Tool Calling;
+- Function Calling;
+- workflows;
+- estado;
+- agentes;
+- agent loops;
+- memória;
+- LangChain;
+- LangGraph;
+- observabilidade;
+- avaliação de sistemas agentic.
+
+### Diferencial opcional
+
+**MCP — Model Context Protocol**
+
+MCP poderá ser estudado como tecnologia complementar após o domínio dos fundamentos de Tool Calling e agentes.
+
+---
+
+## 10 — Entrega e Produção Básica
+
+Preparação das aplicações para execução reproduzível e disponibilização.
+
+Principais temas:
+
+- configuração;
+- variáveis de ambiente;
+- Docker;
+- Docker Compose;
+- cloud;
+- deploy;
+- logs;
+- health checks;
+- CI/CD;
+- GitHub Actions;
+- segurança;
+- custos.
+
+---
+
+# Projetos progressivos
+
+Os projetos fazem parte da trilha e não são uma etapa separada deixada para o final.
+
+```text
+Fundamentos de Programação
+        ↓
+Projeto 01 — Python e Lógica
+        ↓
+Python Aplicado
+        ↓
+Projeto 02 — Aplicação Python Estruturada
+        ↓
+APIs + Dados
+        ↓
+Projeto 03 — API + FastAPI + PostgreSQL
+        ↓
+LLMs
+        ↓
+Projeto 04 — Aplicação com LLM
+        ↓
+Embeddings + RAG
+        ↓
+Projeto 05 — Sistema RAG
+```
+
+Cada projeto deverá reutilizar competências anteriores sempre que fizer sentido.
+
+---
+
+# Projeto de Portfólio
+
+Após as fases técnicas, será desenvolvido um projeto integrado de AI Engineering.
+
+O projeto deverá demonstrar a capacidade de combinar conhecimentos da trilha em uma aplicação coerente.
+
+Não existe obrigação de utilizar todas as tecnologias estudadas.
+
+A arquitetura deverá ser determinada pelo problema.
+
+Possíveis componentes incluem:
+
+```text
+FastAPI
+   ↓
+Aplicação
+   ├── PostgreSQL
+   ├── LLM
+   ├── RAG
+   └── Tools / Workflows
+           ↓
+       Serviços externos
+```
+
+O projeto deverá possuir:
+
+- problema real e claramente definido;
+- arquitetura justificável;
+- código organizado;
+- testes;
+- avaliação das funcionalidades de IA;
+- documentação;
+- Git/GitHub;
+- containerização;
+- CI;
+- deploy ou demonstração reproduzível;
+- capacidade de defesa técnica.
+
+A especificação detalhada está em `PROJETO-DE-PORTFOLIO.md`.
+
+---
+
+# Validação
+
+O roadmap utiliza quatro estados:
+
+- ⬜ Não iniciado
+- 🟦 Em estudo
+- 🟨 Em validação
+- ✅ Validado
+
+Um módulo não se torna `✅ Validado` apenas porque seu conteúdo foi estudado.
+
+A validação poderá envolver:
+
+- exercícios independentes;
+- explicação com palavras próprias;
+- leitura de código;
+- debugging;
+- implementação prática;
+- testes;
+- projetos;
+- avaliações sem assistência.
+
+---
+
+# Uso de IA durante os estudos
+
+Ferramentas de IA podem ser utilizadas como apoio durante o aprendizado.
+
+Elas podem auxiliar em:
+
+- explicações;
+- exemplos;
+- revisão;
+- debugging guiado;
+- comparação de soluções;
+- documentação.
+
+Entretanto, checkpoints específicos serão realizados **sem assistência de IA**.
+
+O objetivo é garantir que a ferramenta acelere o aprendizado sem esconder lacunas de compreensão.
+
+---
+
+# Checkpoint técnico final
+
+Após concluir as fases e o projeto de portfólio, será realizada uma validação integrada.
+
+O checkpoint deverá avaliar:
+
+- programação;
+- debugging;
+- Git/GitHub;
+- APIs;
+- SQL;
+- LLMs;
+- embeddings;
+- RAG;
+- Tool Calling;
+- workflows e agentes;
+- produção básica;
+- explicação de arquitetura;
+- defesa dos projetos.
+
+Parte dessa avaliação será realizada sem assistência.
+
+---
+
+# 🏁 AI Engineer Junior Ready
+
+Este é o marco final deste roadmap.
+
+Será alcançado quando:
+
+```text
+Competências obrigatórias validadas
+            +
+Projetos concluídos
+            +
+Projeto de portfólio demonstrável
+            +
+Checkpoint técnico final aprovado
+            ↓
+🏁 AI Engineer Junior Ready
+```
+
+Ao atingir este marco:
+
+> **Status profissional: Pronto para iniciar candidaturas a vagas de AI Engineer Junior.**
+
+Isso não significa domínio de toda a área de Inteligência Artificial.
+
+Significa possuir fundamentos, competências práticas, evidências de portfólio e capacidade técnica compatíveis com a busca pela primeira oportunidade profissional.
+
+A progressão para níveis Pleno, Sênior ou especializações posteriores não faz parte deste roadmap.
